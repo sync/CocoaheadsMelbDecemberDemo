@@ -8,6 +8,6 @@
 
 import Foundation
 
-public class CoolClass {
+public class CoolClass: NSObject {
     
 }
