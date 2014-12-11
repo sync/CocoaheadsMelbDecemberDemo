@@ -9,7 +9,13 @@
 import Foundation
 
 public class CoolClass: NSObject {
+    
+    let unCoolClass: UnCoolClass
+    
     public override init() {
+        
+        unCoolClass = UnCoolClass()
+        
         super.init()
     }
 }

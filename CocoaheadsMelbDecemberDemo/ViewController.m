@@ -11,6 +11,7 @@
 
 @interface ViewController ()
 @property (nonatomic) CoolClass *coolObject;
+@property (nonatomic) UnCoolClass *unCoolObject;
 @end
 
 @implementation ViewController
@@ -21,6 +22,9 @@
     
     self.coolObject = [[CoolClass alloc] init];
     NSLog(@"coolObject: %@", NSStringFromClass(self.coolObject.class));
+    
+    self.unCoolObject = [[UnCoolClass alloc] init];
+     NSLog(@"unCoolObject: %@", NSStringFromClass(self.unCoolObject.class));
 }
 
 - (void)didReceiveMemoryWarning {

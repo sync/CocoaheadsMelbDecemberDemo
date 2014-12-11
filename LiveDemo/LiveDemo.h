@@ -16,4 +16,4 @@ FOUNDATION_EXPORT const unsigned char LiveDemoVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <LiveDemo/PublicHeader.h>
 
-
+#import <LiveDemo/UnCoolClass.h>

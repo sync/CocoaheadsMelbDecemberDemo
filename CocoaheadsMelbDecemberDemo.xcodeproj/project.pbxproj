@@ -20,6 +20,8 @@
 		45FD41001A392C060084F186 /* LiveDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45FD40E91A392C060084F186 /* LiveDemo.framework */; };
 		45FD41011A392C060084F186 /* LiveDemo.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 45FD40E91A392C060084F186 /* LiveDemo.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		45FD410E1A392CF50084F186 /* CoolClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45FD410D1A392CF50084F186 /* CoolClass.swift */; };
+		45FD41171A3932230084F186 /* UnCoolClass.h in Headers */ = {isa = PBXBuildFile; fileRef = 45FD41151A3932230084F186 /* UnCoolClass.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		45FD41181A3932230084F186 /* UnCoolClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 45FD41161A3932230084F186 /* UnCoolClass.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -88,6 +90,8 @@
 		45FD40FB1A392C060084F186 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		45FD40FC1A392C060084F186 /* LiveDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveDemoTests.swift; sourceTree = "<group>"; };
 		45FD410D1A392CF50084F186 /* CoolClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoolClass.swift; sourceTree = "<group>"; };
+		45FD41151A3932230084F186 /* UnCoolClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UnCoolClass.h; sourceTree = "<group>"; };
+		45FD41161A3932230084F186 /* UnCoolClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UnCoolClass.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -192,6 +196,8 @@
 			children = (
 				45FD40ED1A392C060084F186 /* LiveDemo.h */,
 				45FD410D1A392CF50084F186 /* CoolClass.swift */,
+				45FD41151A3932230084F186 /* UnCoolClass.h */,
+				45FD41161A3932230084F186 /* UnCoolClass.m */,
 				45FD40EB1A392C060084F186 /* Supporting Files */,
 			);
 			path = LiveDemo;
@@ -230,6 +236,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				45FD40EE1A392C060084F186 /* LiveDemo.h in Headers */,
+				45FD41171A3932230084F186 /* UnCoolClass.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -413,6 +420,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				45FD41181A3932230084F186 /* UnCoolClass.m in Sources */,
 				45FD410E1A392CF50084F186 /* CoolClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
