@@ -22,6 +22,8 @@
 		45FD410E1A392CF50084F186 /* CoolClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45FD410D1A392CF50084F186 /* CoolClass.swift */; };
 		45FD41171A3932230084F186 /* UnCoolClass.h in Headers */ = {isa = PBXBuildFile; fileRef = 45FD41151A3932230084F186 /* UnCoolClass.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		45FD41181A3932230084F186 /* UnCoolClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 45FD41161A3932230084F186 /* UnCoolClass.m */; };
+		45FD411B1A3932EC0084F186 /* SemiCoolClass.h in Headers */ = {isa = PBXBuildFile; fileRef = 45FD41191A3932EC0084F186 /* SemiCoolClass.h */; };
+		45FD411C1A3932EC0084F186 /* SemiCoolClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 45FD411A1A3932EC0084F186 /* SemiCoolClass.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -92,6 +94,8 @@
 		45FD410D1A392CF50084F186 /* CoolClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoolClass.swift; sourceTree = "<group>"; };
 		45FD41151A3932230084F186 /* UnCoolClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UnCoolClass.h; sourceTree = "<group>"; };
 		45FD41161A3932230084F186 /* UnCoolClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UnCoolClass.m; sourceTree = "<group>"; };
+		45FD41191A3932EC0084F186 /* SemiCoolClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SemiCoolClass.h; sourceTree = "<group>"; };
+		45FD411A1A3932EC0084F186 /* SemiCoolClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SemiCoolClass.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -198,6 +202,8 @@
 				45FD410D1A392CF50084F186 /* CoolClass.swift */,
 				45FD41151A3932230084F186 /* UnCoolClass.h */,
 				45FD41161A3932230084F186 /* UnCoolClass.m */,
+				45FD41191A3932EC0084F186 /* SemiCoolClass.h */,
+				45FD411A1A3932EC0084F186 /* SemiCoolClass.m */,
 				45FD40EB1A392C060084F186 /* Supporting Files */,
 			);
 			path = LiveDemo;
@@ -237,6 +243,7 @@
 			files = (
 				45FD40EE1A392C060084F186 /* LiveDemo.h in Headers */,
 				45FD41171A3932230084F186 /* UnCoolClass.h in Headers */,
+				45FD411B1A3932EC0084F186 /* SemiCoolClass.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -422,6 +429,7 @@
 			files = (
 				45FD41181A3932230084F186 /* UnCoolClass.m in Sources */,
 				45FD410E1A392CF50084F186 /* CoolClass.swift in Sources */,
+				45FD411C1A3932EC0084F186 /* SemiCoolClass.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
