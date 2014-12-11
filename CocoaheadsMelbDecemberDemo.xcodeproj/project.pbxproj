@@ -19,6 +19,7 @@
 		45FD40FD1A392C060084F186 /* LiveDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45FD40FC1A392C060084F186 /* LiveDemoTests.swift */; };
 		45FD41001A392C060084F186 /* LiveDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45FD40E91A392C060084F186 /* LiveDemo.framework */; };
 		45FD41011A392C060084F186 /* LiveDemo.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 45FD40E91A392C060084F186 /* LiveDemo.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		45FD410E1A392CF50084F186 /* CoolClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45FD410D1A392CF50084F186 /* CoolClass.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -86,6 +87,7 @@
 		45FD40F31A392C060084F186 /* LiveDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LiveDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		45FD40FB1A392C060084F186 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		45FD40FC1A392C060084F186 /* LiveDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveDemoTests.swift; sourceTree = "<group>"; };
+		45FD410D1A392CF50084F186 /* CoolClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoolClass.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -189,6 +191,7 @@
 			isa = PBXGroup;
 			children = (
 				45FD40ED1A392C060084F186 /* LiveDemo.h */,
+				45FD410D1A392CF50084F186 /* CoolClass.swift */,
 				45FD40EB1A392C060084F186 /* Supporting Files */,
 			);
 			path = LiveDemo;
@@ -410,6 +413,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				45FD410E1A392CF50084F186 /* CoolClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -601,6 +605,7 @@
 		45FD41021A392C060084F186 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -624,6 +629,7 @@
 		45FD41031A392C060084F186 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -708,6 +714,7 @@
 				45FD41031A392C060084F186 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		45FD41081A392C060084F186 /* Build configuration list for PBXNativeTarget "LiveDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -716,6 +723,7 @@
 				45FD41051A392C060084F186 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
