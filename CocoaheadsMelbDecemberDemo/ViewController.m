@@ -19,7 +19,8 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     
-    
+    self.coolObject = [[CoolClass alloc] init];
+    NSLog(@"coolObject: %@", NSStringFromClass(self.coolObject.class));
 }
 
 - (void)didReceiveMemoryWarning {

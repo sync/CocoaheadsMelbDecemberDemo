@@ -9,5 +9,7 @@
 import Foundation
 
 public class CoolClass: NSObject {
-    
+    public override init() {
+        super.init()
+    }
 }
