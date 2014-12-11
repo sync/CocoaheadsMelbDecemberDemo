@@ -21,10 +21,11 @@
     // Do any additional setup after loading the view, typically from a nib.
     
     self.coolObject = [[CoolClass alloc] init];
-    NSLog(@"coolObject: %@", NSStringFromClass(self.coolObject.class));
+    NSLog(@"coolObject: %@\n\n", NSStringFromClass(self.coolObject.class));
+    [self.coolObject tellMeIamCool];
     
     self.unCoolObject = [[UnCoolClass alloc] init];
-     NSLog(@"unCoolObject: %@", NSStringFromClass(self.unCoolObject.class));
+     NSLog(@"\n\nunCoolObject: %@", NSStringFromClass(self.unCoolObject.class));
 }
 
 - (void)didReceiveMemoryWarning {

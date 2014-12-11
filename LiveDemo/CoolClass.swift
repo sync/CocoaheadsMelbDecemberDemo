@@ -18,4 +18,12 @@ public class CoolClass: NSObject {
         
         super.init()
     }
+    
+    public func tellMeIamCool() {
+        println("please don't make me lie")
+    }
+    
+    private func youCantUseMe() {
+        println("you can't use me")
+    }
 }
