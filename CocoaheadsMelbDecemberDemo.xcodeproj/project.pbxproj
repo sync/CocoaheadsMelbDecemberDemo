@@ -14,6 +14,11 @@
 		45FD40A71A3929920084F186 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45FD40A61A3929920084F186 /* Images.xcassets */; };
 		45FD40AA1A3929920084F186 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 45FD40A81A3929920084F186 /* LaunchScreen.xib */; };
 		45FD40B61A3929930084F186 /* CocoaheadsMelbDecemberDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 45FD40B51A3929930084F186 /* CocoaheadsMelbDecemberDemoTests.m */; };
+		45FD40EE1A392C060084F186 /* LiveDemo.h in Headers */ = {isa = PBXBuildFile; fileRef = 45FD40ED1A392C060084F186 /* LiveDemo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		45FD40F41A392C060084F186 /* LiveDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45FD40E91A392C060084F186 /* LiveDemo.framework */; };
+		45FD40FD1A392C060084F186 /* LiveDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45FD40FC1A392C060084F186 /* LiveDemoTests.swift */; };
+		45FD41001A392C060084F186 /* LiveDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45FD40E91A392C060084F186 /* LiveDemo.framework */; };
+		45FD41011A392C060084F186 /* LiveDemo.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 45FD40E91A392C060084F186 /* LiveDemo.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -24,7 +29,42 @@
 			remoteGlobalIDString = 45FD40951A3929920084F186;
 			remoteInfo = CocoaheadsMelbDecemberDemo;
 		};
+		45FD40F51A392C060084F186 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 45FD408E1A3929920084F186 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 45FD40E81A392C060084F186;
+			remoteInfo = LiveDemo;
+		};
+		45FD40F71A392C060084F186 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 45FD408E1A3929920084F186 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 45FD40951A3929920084F186;
+			remoteInfo = CocoaheadsMelbDecemberDemo;
+		};
+		45FD40FE1A392C060084F186 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 45FD408E1A3929920084F186 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 45FD40E81A392C060084F186;
+			remoteInfo = LiveDemo;
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		45FD41071A392C060084F186 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				45FD41011A392C060084F186 /* LiveDemo.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		45FD40961A3929920084F186 /* CocoaheadsMelbDecemberDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CocoaheadsMelbDecemberDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -40,6 +80,12 @@
 		45FD40AF1A3929930084F186 /* CocoaheadsMelbDecemberDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CocoaheadsMelbDecemberDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		45FD40B41A3929930084F186 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		45FD40B51A3929930084F186 /* CocoaheadsMelbDecemberDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CocoaheadsMelbDecemberDemoTests.m; sourceTree = "<group>"; };
+		45FD40E91A392C060084F186 /* LiveDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LiveDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		45FD40EC1A392C060084F186 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		45FD40ED1A392C060084F186 /* LiveDemo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LiveDemo.h; sourceTree = "<group>"; };
+		45FD40F31A392C060084F186 /* LiveDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LiveDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		45FD40FB1A392C060084F186 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		45FD40FC1A392C060084F186 /* LiveDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveDemoTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +93,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				45FD41001A392C060084F186 /* LiveDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -54,6 +101,21 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45FD40E51A392C060084F186 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45FD40F01A392C060084F186 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45FD40F41A392C060084F186 /* LiveDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +127,8 @@
 			children = (
 				45FD40981A3929920084F186 /* CocoaheadsMelbDecemberDemo */,
 				45FD40B21A3929930084F186 /* CocoaheadsMelbDecemberDemoTests */,
+				45FD40EA1A392C060084F186 /* LiveDemo */,
+				45FD40F91A392C060084F186 /* LiveDemoTests */,
 				45FD40971A3929920084F186 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -74,6 +138,8 @@
 			children = (
 				45FD40961A3929920084F186 /* CocoaheadsMelbDecemberDemo.app */,
 				45FD40AF1A3929930084F186 /* CocoaheadsMelbDecemberDemoTests.xctest */,
+				45FD40E91A392C060084F186 /* LiveDemo.framework */,
+				45FD40F31A392C060084F186 /* LiveDemoTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -119,7 +185,52 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		45FD40EA1A392C060084F186 /* LiveDemo */ = {
+			isa = PBXGroup;
+			children = (
+				45FD40ED1A392C060084F186 /* LiveDemo.h */,
+				45FD40EB1A392C060084F186 /* Supporting Files */,
+			);
+			path = LiveDemo;
+			sourceTree = "<group>";
+		};
+		45FD40EB1A392C060084F186 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				45FD40EC1A392C060084F186 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		45FD40F91A392C060084F186 /* LiveDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				45FD40FC1A392C060084F186 /* LiveDemoTests.swift */,
+				45FD40FA1A392C060084F186 /* Supporting Files */,
+			);
+			path = LiveDemoTests;
+			sourceTree = "<group>";
+		};
+		45FD40FA1A392C060084F186 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				45FD40FB1A392C060084F186 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		45FD40E61A392C060084F186 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45FD40EE1A392C060084F186 /* LiveDemo.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		45FD40951A3929920084F186 /* CocoaheadsMelbDecemberDemo */ = {
@@ -129,10 +240,12 @@
 				45FD40921A3929920084F186 /* Sources */,
 				45FD40931A3929920084F186 /* Frameworks */,
 				45FD40941A3929920084F186 /* Resources */,
+				45FD41071A392C060084F186 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				45FD40FF1A392C060084F186 /* PBXTargetDependency */,
 			);
 			name = CocoaheadsMelbDecemberDemo;
 			productName = CocoaheadsMelbDecemberDemo;
@@ -157,6 +270,43 @@
 			productReference = 45FD40AF1A3929930084F186 /* CocoaheadsMelbDecemberDemoTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		45FD40E81A392C060084F186 /* LiveDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45FD41061A392C060084F186 /* Build configuration list for PBXNativeTarget "LiveDemo" */;
+			buildPhases = (
+				45FD40E41A392C060084F186 /* Sources */,
+				45FD40E51A392C060084F186 /* Frameworks */,
+				45FD40E61A392C060084F186 /* Headers */,
+				45FD40E71A392C060084F186 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LiveDemo;
+			productName = LiveDemo;
+			productReference = 45FD40E91A392C060084F186 /* LiveDemo.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		45FD40F21A392C060084F186 /* LiveDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45FD41081A392C060084F186 /* Build configuration list for PBXNativeTarget "LiveDemoTests" */;
+			buildPhases = (
+				45FD40EF1A392C060084F186 /* Sources */,
+				45FD40F01A392C060084F186 /* Frameworks */,
+				45FD40F11A392C060084F186 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				45FD40F61A392C060084F186 /* PBXTargetDependency */,
+				45FD40F81A392C060084F186 /* PBXTargetDependency */,
+			);
+			name = LiveDemoTests;
+			productName = LiveDemoTests;
+			productReference = 45FD40F31A392C060084F186 /* LiveDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -170,6 +320,13 @@
 						CreatedOnToolsVersion = 6.1.1;
 					};
 					45FD40AE1A3929930084F186 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 45FD40951A3929920084F186;
+					};
+					45FD40E81A392C060084F186 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					45FD40F21A392C060084F186 = {
 						CreatedOnToolsVersion = 6.1.1;
 						TestTargetID = 45FD40951A3929920084F186;
 					};
@@ -190,6 +347,8 @@
 			targets = (
 				45FD40951A3929920084F186 /* CocoaheadsMelbDecemberDemo */,
 				45FD40AE1A3929930084F186 /* CocoaheadsMelbDecemberDemoTests */,
+				45FD40E81A392C060084F186 /* LiveDemo */,
+				45FD40F21A392C060084F186 /* LiveDemoTests */,
 			);
 		};
 /* End PBXProject section */
@@ -206,6 +365,20 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		45FD40AD1A3929930084F186 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45FD40E71A392C060084F186 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45FD40F11A392C060084F186 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -233,6 +406,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		45FD40E41A392C060084F186 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45FD40EF1A392C060084F186 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45FD40FD1A392C060084F186 /* LiveDemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -240,6 +428,21 @@
 			isa = PBXTargetDependency;
 			target = 45FD40951A3929920084F186 /* CocoaheadsMelbDecemberDemo */;
 			targetProxy = 45FD40B01A3929930084F186 /* PBXContainerItemProxy */;
+		};
+		45FD40F61A392C060084F186 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 45FD40E81A392C060084F186 /* LiveDemo */;
+			targetProxy = 45FD40F51A392C060084F186 /* PBXContainerItemProxy */;
+		};
+		45FD40F81A392C060084F186 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 45FD40951A3929920084F186 /* CocoaheadsMelbDecemberDemo */;
+			targetProxy = 45FD40F71A392C060084F186 /* PBXContainerItemProxy */;
+		};
+		45FD40FF1A392C060084F186 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 45FD40E81A392C060084F186 /* LiveDemo */;
+			targetProxy = 45FD40FE1A392C060084F186 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -395,6 +598,79 @@
 			};
 			name = Release;
 		};
+		45FD41021A392C060084F186 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = LiveDemo/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		45FD41031A392C060084F186 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = LiveDemo/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		45FD41041A392C060084F186 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = LiveDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CocoaheadsMelbDecemberDemo.app/CocoaheadsMelbDecemberDemo";
+			};
+			name = Debug;
+		};
+		45FD41051A392C060084F186 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = LiveDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CocoaheadsMelbDecemberDemo.app/CocoaheadsMelbDecemberDemo";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -414,12 +690,30 @@
 				45FD40BB1A3929930084F186 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		45FD40BC1A3929930084F186 /* Build configuration list for PBXNativeTarget "CocoaheadsMelbDecemberDemoTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				45FD40BD1A3929930084F186 /* Debug */,
 				45FD40BE1A3929930084F186 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		45FD41061A392C060084F186 /* Build configuration list for PBXNativeTarget "LiveDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45FD41021A392C060084F186 /* Debug */,
+				45FD41031A392C060084F186 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		45FD41081A392C060084F186 /* Build configuration list for PBXNativeTarget "LiveDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45FD41041A392C060084F186 /* Debug */,
+				45FD41051A392C060084F186 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
