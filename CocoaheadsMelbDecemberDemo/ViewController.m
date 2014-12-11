@@ -24,8 +24,10 @@
     NSLog(@"coolObject: %@\n\n", NSStringFromClass(self.coolObject.class));
     [self.coolObject tellMeIamCool];
     
+    //NSLog(@"coolObject: %d", self.coolObject.);
+    
     self.unCoolObject = [[UnCoolClass alloc] init];
-     NSLog(@"\n\nunCoolObject: %@", NSStringFromClass(self.unCoolObject.class));
+    NSLog(@"\n\nunCoolObject: %@", NSStringFromClass(self.unCoolObject.class));
 }
 
 - (void)didReceiveMemoryWarning {

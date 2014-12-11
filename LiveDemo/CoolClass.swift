@@ -8,13 +8,19 @@
 
 import Foundation
 
+public enum Rank: Int {
+    case Ace = 1
+}
+
 public class CoolClass: NSObject {
     
-    let unCoolClass: UnCoolClass
+    private let unCoolClass: UnCoolClass
+    public let rank: Rank
     
     public override init() {
         
         unCoolClass = UnCoolClass()
+        rank = .Ace
         
         super.init()
     }
